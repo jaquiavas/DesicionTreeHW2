@@ -1,0 +1,71 @@
+% This dataset represents weekly spending habits with 10 features and 50 data points.
+% The features include both continuous and discrete values.
+% The output class to be predicted is whether the person is in school.
+% This data is not entirely realistic as normally rent and other values here may not change as much
+% However, for the sake of having an interesting dataset I mixed up the values a little bit
+
+@relation weekly_spending
+
+@attribute Week numeric
+@attribute Groceries numeric
+@attribute Rent numeric
+@attribute Utilities numeric
+@attribute Transportation numeric
+@attribute Entertainment numeric
+@attribute Dining_Out numeric
+@attribute Sports numeric
+@attribute Savings numeric
+@attribute Miscellaneous numeric
+@attribute InSchool {true, false} % Output class to be predicted
+
+@data
+1, 150, 800, 100, 50, 60, 70, 30, 200, 40, true
+2, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+3, 155, 900, 105, 52, 62, 72, 32, 205, 42, true
+4, 158, 750, 108, 54, 64, 74, 34, 208, 44, true
+5, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+6, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+7, 160, 850, 110, 55, 65, 75, 35, 210, 45, true
+8, 155, 900, 105, 52, 62, 72, 32, 205, 42, true
+9, 158, 750, 108, 54, 64, 74, 34, 208, 44, true
+10, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+11, 150, 700, 100, 50, 60, 70, 30, 200, 40, true
+12, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+13, 155, 900, 105, 52, 62, 72, 32, 205, 42, false
+14, 158, 750, 108, 54, 64, 74, 34, 208, 44, false
+15, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+16, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+17, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+18, 155, 900, 105, 52, 62, 72, 32, 205, 42, true
+19, 158, 750, 108, 54, 64, 74, 34, 208, 44, false
+20, 162, 800, 112, 56, 66, 76, 36, 212, 46, false
+21, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+22, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+23, 155, 900, 105, 52, 62, 72, 32, 205, 42, true
+24, 158, 750, 108, 54, 64, 74, 34, 208, 44, true
+25, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+26, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+27, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+28, 155, 900, 105, 52, 62, 72, 32, 205, 42, false
+29, 158, 750, 108, 54, 64, 74, 34, 208, 44, true
+30, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+31, 150, 700, 100, 50, 60, 70, 30, 200, 40, true
+32, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+33, 155, 900, 105, 52, 62, 72, 32, 205, 42, false
+34, 158, 750, 108, 54, 64, 74, 34, 208, 44, false
+35, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+36, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+37, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+38, 155, 900, 105, 52, 62, 72, 32, 205, 42, true
+39, 158, 750, 108, 54, 64, 74, 34, 208, 44, false
+40, 162, 800, 112, 56, 66, 76, 36, 212, 46, false
+41, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+42, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+43, 155, 900, 105, 52, 62, 72, 32, 205, 42, true
+44, 158, 750, 108, 54, 64, 74, 34, 208, 44, true
+45, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
+46, 150, 700, 100, 50, 60, 70, 30, 200, 40, false
+47, 160, 850, 110, 55, 65, 75, 35, 210, 45, false
+48, 155, 900, 105, 52, 62, 72, 32, 205, 42, false
+49, 158, 750, 108, 54, 64, 74, 34, 208, 44, true
+50, 162, 800, 112, 56, 66, 76, 36, 212, 46, true
